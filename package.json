@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/sanjidtalukder/My-Action-Gallery",
+  "homepage": "https://sanjidtalukder.github.io/My-Action-Gallery/",
   "name": "my-action-gallery",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.3",
