@@ -61,14 +61,20 @@ Users can browse detailed lawyer profiles, check availability, book or cancel ap
 ## 📦 Dependencies
 
 ```bash
-npm install react react-dom react-router-dom recharts react-countup react-hot-toast tailwindcss daisyui
+CDN:
+- DaisyUI (Tailwind CSS Components)
+- Font Awesome 6.7
+- SweetAlert2 (for alert messages)
+
+## 🙋‍♂️ Author
+
+**Sanjid Talukder**  
+Junior Web Developer | CSE, Dhaka International University  
+GitHub link: https://github.com/sanjidtalukder?tab=repositories
 
 ---
----
-##  🙋‍♂️ Author
-Sanjid Talukder
-Junior Web Developer | CSE, Dhaka International University
-GitHub: https://github.com/sanjidtalukder
-Email: sanjidtalukder02@gmail.com
 
----
+
+## 🎓 Guided By
+
+Inspired & structured under the guidance of Programming Hero
