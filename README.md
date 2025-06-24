@@ -14,7 +14,7 @@
 
 ## 🌐 Live URL
 
-🔗 [Live Demo (Hosted on Netlify)](https://gilded-cocada-e311bd.netlify.app)
+🔗 [Live Demo ](https://storied-dasik-18b069.netlify.app/)
 
 ---
 
