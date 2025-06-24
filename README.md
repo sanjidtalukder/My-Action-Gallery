@@ -1,7 +1,7 @@
 <div align="center">
   <h1>⚖️ Lawyer Appointment Booking Application</h1>
   <p>React-based platform to browse lawyers, book appointments, and manage bookings with interactive UI and charts.</p>
-  <img src="https://i.ibb.co/7G7sjTz/lawyer-app-screenshot.png" alt="Lawyer Appointment Booking App Screenshot" width="80%" />
+<!--   <img src="https://i.ibb.co/7G7sjTz/lawyer-app-screenshot.png" alt="Lawyer Appointment Booking App Screenshot" width="80%" /> -->
 </div>
 
 ---
@@ -15,7 +15,7 @@ Users can browse detailed lawyer profiles, check availability, book or cancel ap
 
 ## 🌐 Live Site
 
-🔗 [Visit Live Application](https://your-live-link-here.netlify.app/)  
+🔗 [Visit Live Application](https://storied-dasik-18b069.netlify.app/)  
 
 ---
 
