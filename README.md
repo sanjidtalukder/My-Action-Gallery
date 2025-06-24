@@ -1,80 +1,87 @@
 <div align="center">
-  <h1>⚖️ Lawyer Appointment Booking Application</h1>
-  <p>React-based platform to browse lawyers, book appointments, and manage bookings with interactive UI and charts.</p>
-<!--   <img src="https://i.ibb.co/7G7sjTz/lawyer-app-screenshot.png" alt="Lawyer Appointment Booking App Screenshot" width="80%" /> -->
+  <h1>🎉 Event Explorer – A Local Event Discovery Platform</h1>
+  <p>An interactive platform for discovering, exploring, and managing local events.</p>
+<!--   <img src="https://i.ibb.co/Qr5wPRk/event-explorer-banner.png" alt="Event Explorer Screenshot" width="80%" /> -->
 </div>
 
 ---
 
-## 📝 Project Overview
+## 📌 Project Overview
 
-This is a modern **Lawyer Appointment Booking Application** built with React.  
-Users can browse detailed lawyer profiles, check availability, book or cancel appointments, and view analytics of booking fees through interactive charts.
-
----
-
-## 🌐 Live Site
-
-🔗 [Visit Live Application](https://storied-dasik-18b069.netlify.app/)  
+**Event Explorer** is a single-page web application that allows users to discover and explore local events like workshops, tech conferences, exhibitions, sports meets, and more. Authenticated users can reserve seats, view booking details, manage their profile, and get dynamic insights through interactive charts.
 
 ---
 
-## 🧰 Technologies Used
+## 🌐 Live URL
 
-- React.js (Functional Components & Hooks)
-- React Router DOM (Routing & Protected Routes)
-- LocalStorage (Data persistence)
-- Recharts (Data visualization)
-- React CountUp (Animated counters)
-- Tailwind CSS + DaisyUI (Styling)
-- React Hot Toast (Notifications)
-- Figma (Design reference)
+🔗 [Live Demo (Hosted on Netlify)](https://gilded-cocada-e311bd.netlify.app)
 
 ---
 
-## ✨ Main Features
+## 🎯 Project Purpose
 
-- 🧭 Persistent Navbar & Footer (Footer hidden on Error page)
-- 🏠 Homepage with:
-  - Banner section with background image & heading
-  - Lawyer Grid (6 lawyers initially, Show All loads 12)
-  - Success Stats with animated counters
-- ⚖️ Lawyer Details Page:
-  - Lawyer profile info card with image, speciality, experience, fee, license, availability
-  - Appointment booking functionality with validation and toast notifications
-- 📅 Bookings Page:
-  - List of all booked appointments with Cancel button
-  - Persist bookings in localStorage
-- 📚 Blogs Page:
-  - React concepts articles (useState, useEffect, custom hooks, controlled vs uncontrolled, useFormStatus)
--   Custom 404 Error Page:
-  - Shows Navbar, no footer
-  - Redirect button to homepage
-- 📊 Fee Visualization Chart:
-  - Dynamic bar chart of booked appointments fees
-  - Updates on booking/cancel actions
-- 🔢 Counting Animation on stats cards on homepage
-- 🛡️ Routing guards for invalid or dynamic routes
+- Help users discover exciting events happening around them.
+- Provide event details including category, host, time, and availability.
+- Enable users to book and cancel seats securely.
+- Show personalized bookings and statistics via chart.
+- Ensure secure login/logout using Firebase Authentication.
 
 ---
 
-## 📦 Dependencies
+## 🧪 Main Features
+
+-  **User Authentication** with Firebase (Google & Email)
+-  **Login / Logout / Persistent Auth** (via `onAuthStateChanged`)
+-  **Navbar** with dynamic Login/Profile image and hoverable username
+-  **My Profile Page** to display user info
+-  **Event Details Page** with:
+  - Title, description, host, date/time
+  - Reserve Seat form
+-  **Booking Confirmation** with toast notifications
+-  **Cancel Booking** with removal from chart and localStorage
+-  **Dynamic Chart** (Recharts) showing booked event prices
+-  **Blog Page** with React-related questions/answers
+-  **Custom 404 Page**
+-  **Responsive UI** for desktop, tablet, and mobile
+-  **Protected Routes** (redirect to login if unauthenticated)
+
+---
+
+## ⚙️ Technologies Used
+
+- React.js
+- React Router DOM
+- Firebase Auth
+- Recharts
+- Tailwind CSS + DaisyUI
+- React Hot Toast
+- React CountUp
+- Vite
+
+---
+
+## 📦 NPM Packages
 
 ```bash
-CDN:
-- DaisyUI (Tailwind CSS Components)
-- Font Awesome 6.7
-- SweetAlert2 (for alert messages)
-
-## 🙋‍♂️ Author
-
-**Sanjid Talukder**  
-Junior Web Developer | CSE, Dhaka International University  
-GitHub link: https://github.com/sanjidtalukder?tab=repositories
-
+npm install react-router-dom firebase tailwindcss daisyui react-hot-toast recharts react-countup
+```
 ---
 
+## 🙋‍♂️ Author
+Sanjid Talukder
 
-## 🎓 Guided By
+Junior Web Developer | CSE, Dhaka International University
 
-Inspired & structured under the guidance of Programming Hero
+📧 Email: sanjidtalukder02@gmail.com
+
+🔗 GitHub: github.com/sanjidtalukder
+
+
+## 📝 License & Credits
+Design inspired by urban-themed event apps
+
+Auth handled using Firebase
+
+UI styled with TailwindCSS + DaisyUI
+
+Guide followed from Programming Hero instructions
