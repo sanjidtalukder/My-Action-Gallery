@@ -1,12 +1,74 @@
-# React + Vite
+<div align="center">
+  <h1>⚖️ Lawyer Appointment Booking Application</h1>
+  <p>React-based platform to browse lawyers, book appointments, and manage bookings with interactive UI and charts.</p>
+  <img src="https://i.ibb.co/7G7sjTz/lawyer-app-screenshot.png" alt="Lawyer Appointment Booking App Screenshot" width="80%" />
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 📝 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a modern **Lawyer Appointment Booking Application** built with React.  
+Users can browse detailed lawyer profiles, check availability, book or cancel appointments, and view analytics of booking fees through interactive charts.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌐 Live Site
+
+🔗 [Visit Live Application](https://your-live-link-here.netlify.app/)  
+
+---
+
+## 🧰 Technologies Used
+
+- React.js (Functional Components & Hooks)
+- React Router DOM (Routing & Protected Routes)
+- LocalStorage (Data persistence)
+- Recharts (Data visualization)
+- React CountUp (Animated counters)
+- Tailwind CSS + DaisyUI (Styling)
+- React Hot Toast (Notifications)
+- Figma (Design reference)
+
+---
+
+## ✨ Main Features
+
+- 🧭 Persistent Navbar & Footer (Footer hidden on Error page)
+- 🏠 Homepage with:
+  - Banner section with background image & heading
+  - Lawyer Grid (6 lawyers initially, Show All loads 12)
+  - Success Stats with animated counters
+- ⚖️ Lawyer Details Page:
+  - Lawyer profile info card with image, speciality, experience, fee, license, availability
+  - Appointment booking functionality with validation and toast notifications
+- 📅 Bookings Page:
+  - List of all booked appointments with Cancel button
+  - Persist bookings in localStorage
+- 📚 Blogs Page:
+  - React concepts articles (useState, useEffect, custom hooks, controlled vs uncontrolled, useFormStatus)
+-   Custom 404 Error Page:
+  - Shows Navbar, no footer
+  - Redirect button to homepage
+- 📊 Fee Visualization Chart:
+  - Dynamic bar chart of booked appointments fees
+  - Updates on booking/cancel actions
+- 🔢 Counting Animation on stats cards on homepage
+- 🛡️ Routing guards for invalid or dynamic routes
+
+---
+
+## 📦 Dependencies
+
+```bash
+npm install react react-dom react-router-dom recharts react-countup react-hot-toast tailwindcss daisyui
+
+---
+---
+##  🙋‍♂️ Author
+Sanjid Talukder
+Junior Web Developer | CSE, Dhaka International University
+GitHub: https://github.com/sanjidtalukder
+Email: sanjidtalukder02@gmail.com
+
+---
